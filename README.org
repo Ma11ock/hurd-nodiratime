@@ -1,0 +1,10 @@
+* ~nodiratime~ for the GNU Hurd
+This patch adds in the ~nodiratime~ mount option for the GNU Hurd.
+
+* What 
+~nodiratime~ disables Unix access time updates for directories.
+
+~noatime~ implies ~nodiratime~
+~strictatime~ implies not ~nodiratime~
+
+It is compatible with ~relatime~.
